@@ -75,7 +75,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Resources\Properties\LogProperties.cs" />
     <Compile Include="Assets\Scripts\Framework\CustomNetworkManager.cs" />
     <Compile Include="Assets\Scripts\Framework\GameManager.cs" />
     <Compile Include="Assets\Scripts\Framework\GameTime.cs" />

@@ -50,9 +50,6 @@ public class TimeHandler : NetworkHandler {
     public GameObject seasonText;
     public GameObject dayText;
 
-    //LOG
-    private Logger log;
-
 	public override void HandlerStart_S() {
         timeTrack = 0;
         timeSinceZero = 0;

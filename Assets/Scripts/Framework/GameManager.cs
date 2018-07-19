@@ -8,6 +8,8 @@ public class GameManager : NetworkBehaviour {
     //HANDLERS
     public NetworkHandler[] handlerArray;
     
+    public PlayerController[] playerArray;
+    
 	void Start() {
         print("GameManager start");
         if(isServer) {
